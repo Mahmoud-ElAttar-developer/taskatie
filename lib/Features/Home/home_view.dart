@@ -65,7 +65,7 @@ class _HomeViewState extends State<HomeView> {
                       }
                     }
                     if (tasks.isEmpty) {
-                      return const EmptyTask(); // تأكد من استدعاء الويدجت الفاضي بتاعك هنا
+                      return const EmptyTask();
                     } else {
                       return ListView.builder(
                         itemCount: tasks.length,
