@@ -26,7 +26,6 @@ class _UploadViewState extends State<UploadView> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        // surfaceTintColor: Colors.transparent,
         actions: [
           TextButton(
             onPressed: () {
@@ -64,7 +63,7 @@ class _UploadViewState extends State<UploadView> {
                   CircleAvatar(
                     radius: 100,
                     backgroundImage:
-                        (imagepath != null) // اتأكد إن الـ p سمول زي تعريفك
+                        (imagepath != null) 
                         ? FileImage(File(imagepath!)) as ImageProvider
                         : const AssetImage('assets/abstract-user-flat-4.png'),
                   ),
