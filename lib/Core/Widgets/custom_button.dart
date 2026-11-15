@@ -13,9 +13,7 @@ class CustomButton extends StatelessWidget {
 
   final String text;
   final double width;
-  // لو الاستايل دا كان ب نل ما استخدمتوش ينادى الميثود بتاعت جت ستايل بص تحت لو استخدمته هيغطى اللى انا عملته
   final TextStyle? style;
-  // المتغيرين دول التغييرات اللى على الزرار جبت المتغير التانى انى وقفت على انونيمس ميثود تحت و عرفته
   final void Function()? onPressed;
 
   @override
